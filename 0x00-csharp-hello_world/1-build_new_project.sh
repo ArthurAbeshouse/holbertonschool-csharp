@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-dotnet new console -n 1-new_project
-dotnet build
+var1="1-new_project"
+dotnet new console -n var1
+dotnet build var1
