@@ -10,4 +10,3 @@ class Program
         Console.WriteLine("{0} {1} {2}", int1, str2, str1);
     }
 }
-
