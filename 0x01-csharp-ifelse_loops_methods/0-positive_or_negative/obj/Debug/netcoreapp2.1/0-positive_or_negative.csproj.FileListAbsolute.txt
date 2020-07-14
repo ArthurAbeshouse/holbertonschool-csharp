@@ -1,0 +1,11 @@
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/bin/Debug/netcoreapp2.1/0-positive_or_negative.deps.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/bin/Debug/netcoreapp2.1/0-positive_or_negative.runtimeconfig.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/bin/Debug/netcoreapp2.1/0-positive_or_negative.runtimeconfig.dev.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/bin/Debug/netcoreapp2.1/0-positive_or_negative.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/bin/Debug/netcoreapp2.1/0-positive_or_negative.pdb
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/obj/Debug/netcoreapp2.1/0-positive_or_negative.csprojAssemblyReference.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/obj/Debug/netcoreapp2.1/0-positive_or_negative.csproj.CoreCompileInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/obj/Debug/netcoreapp2.1/0-positive_or_negative.AssemblyInfoInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/obj/Debug/netcoreapp2.1/0-positive_or_negative.AssemblyInfo.cs
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/obj/Debug/netcoreapp2.1/0-positive_or_negative.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/0-positive_or_negative/obj/Debug/netcoreapp2.1/0-positive_or_negative.pdb
