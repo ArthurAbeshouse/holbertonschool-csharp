@@ -12,9 +12,8 @@ namespace _5_print_comb
 
                 if (i != 99)
                 Console.Write(", ");
-                else
-                Console.WriteLine();
             }
+            Console.WriteLine();
         }
     }
 }
