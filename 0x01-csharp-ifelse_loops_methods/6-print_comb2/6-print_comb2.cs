@@ -10,6 +10,7 @@ namespace _6_print_comb2
             {
                 for (int n2 = 1; n2 <= 9; n2++)
                 {
+                    if (n2  > n1)
                     Console.Write("{0}{1}, ", n1, n2);
                     if (n1 == 8 && n2 == 9)
                     Console.WriteLine("{0}{1}", n1, n2);
