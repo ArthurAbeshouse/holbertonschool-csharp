@@ -14,7 +14,7 @@
                 if (j <= array.GetLength(0))
                     Console.Write(" ");
             }
-            Console.WriteLine("");
+            Console.WriteLine();
         }
     }
 }
