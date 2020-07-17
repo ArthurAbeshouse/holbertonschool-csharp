@@ -11,7 +11,7 @@ class Program
             for (int j = 0; j < 5; ++j)
             {
                 Console.Write(array[i, j]);
-                if (j <= array.GetLength(0))
+                if (j < array.GetLength(1) - 1)
                     Console.Write(" ");
             }
             Console.WriteLine();
