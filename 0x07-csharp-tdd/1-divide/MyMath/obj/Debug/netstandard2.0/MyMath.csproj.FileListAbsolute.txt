@@ -1,0 +1,10 @@
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/1-divide/MyMath/obj/Debug/netstandard2.0/MyMath.csprojAssemblyReference.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/1-divide/MyMath/obj/Debug/netstandard2.0/MyMath.csproj.CoreCompileInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/1-divide/MyMath/obj/Debug/netstandard2.0/MyMath.AssemblyInfoInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/1-divide/MyMath/obj/Debug/netstandard2.0/MyMath.AssemblyInfo.cs
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/1-divide/MyMath/bin/Debug/netstandard2.0/MyMath.xml
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/1-divide/MyMath/bin/Debug/netstandard2.0/MyMath.deps.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/1-divide/MyMath/bin/Debug/netstandard2.0/MyMath.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/1-divide/MyMath/bin/Debug/netstandard2.0/MyMath.pdb
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/1-divide/MyMath/obj/Debug/netstandard2.0/MyMath.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/1-divide/MyMath/obj/Debug/netstandard2.0/MyMath.pdb
