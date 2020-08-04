@@ -26,5 +26,16 @@ namespace MyMath.Tests
             int[,] testmatrixnull = null;
             Assert.That(MyMath.Matrix.Divide(testmatrixnull, 47), Is.EqualTo(null));
         }
+
+        /// <summary>
+        /// Test for positive integer matrix division
+        /// </summary>
+        [Test]
+        public void DividePos()
+        {
+            int[,] testmatrixpos = {{6, 8}, {12, 14}};
+            int[,] results = {{3, 4}, {6, 7}};
+            Assert.That(MyMath.Matrix.Divide(testmatrixpos, 2), Is.EqualTo(results));
+        }
     }
 }

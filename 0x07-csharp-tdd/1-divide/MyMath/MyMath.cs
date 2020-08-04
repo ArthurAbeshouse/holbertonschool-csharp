@@ -22,9 +22,9 @@ namespace MyMath
             
             int [, ] New_Matrix = new int[matrix.GetLength(0), matrix.GetLength(1)];
             int i = 0;
-            int j = 0;
             while(i < matrix.GetLength(0))
             {
+                int j = 0;
                 while(j < matrix.GetLength(1))
                 {
                     int result = (matrix[i,j] / num);
