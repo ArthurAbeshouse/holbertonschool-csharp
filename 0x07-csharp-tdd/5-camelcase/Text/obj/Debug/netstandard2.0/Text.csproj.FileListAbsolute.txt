@@ -1,0 +1,10 @@
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/Text/bin/Debug/netstandard2.0/Text.xml
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/Text/bin/Debug/netstandard2.0/Text.deps.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/Text/bin/Debug/netstandard2.0/Text.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/Text/bin/Debug/netstandard2.0/Text.pdb
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/Text/obj/Debug/netstandard2.0/Text.csprojAssemblyReference.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/Text/obj/Debug/netstandard2.0/Text.csproj.CoreCompileInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/Text/obj/Debug/netstandard2.0/Text.AssemblyInfoInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/Text/obj/Debug/netstandard2.0/Text.AssemblyInfo.cs
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/Text/obj/Debug/netstandard2.0/Text.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/Text/obj/Debug/netstandard2.0/Text.pdb

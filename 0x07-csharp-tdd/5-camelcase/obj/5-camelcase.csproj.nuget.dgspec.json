@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/5-camelcase.csproj": {}
+  },
+  "projects": {
+    "/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/5-camelcase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/5-camelcase.csproj",
+        "projectName": "5-camelcase",
+        "projectPath": "/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/5-camelcase.csproj",
+        "packagesPath": "/Users/arthurabeshouse/.nuget/packages/",
+        "outputPath": "/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x07-csharp-tdd/5-camelcase/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/arthurabeshouse/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
