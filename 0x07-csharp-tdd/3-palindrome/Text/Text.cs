@@ -28,7 +28,20 @@ namespace Text
                 }
                 i += 1;
             }
-            return stringcleaned.SequenceEqual(lowercase.Reverse());
+            lowercase = new string(stringcleaned.ToArray());
+
+            char[] array = lowercase.ToCharArray();
+            Array.Reverse(array);
+            string reverse = new string(array);
+
+            if (lowercase == reverse)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

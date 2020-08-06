@@ -11,9 +11,9 @@ namespace Text.Tests
         }
 
         [Test]
-        public void TestFalse([Values("giraffe")] string test)
+        public void TestFalse([Values("giraffe")] string teststr)
         {
-            bool IsPalindrome = Str.IsPalindrome(test);
+            bool IsPalindrome = Str.IsPalindrome(teststr);
             Assert.That(IsPalindrome == false);
         }
     }
