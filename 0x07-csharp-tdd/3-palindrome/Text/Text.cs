@@ -28,7 +28,7 @@ namespace Text
                 }
                 i += 1;
             }
-            return lowercase.SequenceEqual(lowercase.Reverse());
+            return stringcleaned.SequenceEqual(lowercase.Reverse());
         }
     }
 }

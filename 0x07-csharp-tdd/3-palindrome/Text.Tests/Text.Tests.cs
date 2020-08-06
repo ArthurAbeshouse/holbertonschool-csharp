@@ -11,9 +11,10 @@ namespace Text.Tests
         }
 
         [Test]
-        public void TestFalse([Values("giraffe")] string str)
+        public void TestFalse([Values("giraffe")] string BOOB)
         {
-            Assert.That(Text.Str.IsPalindrome(str), Is.False);
+            bool IsPalindrome = Str.IsPalindrome(BOOB);
+            Assert.That(IsPalindrome == false);
         }
     }
 }
