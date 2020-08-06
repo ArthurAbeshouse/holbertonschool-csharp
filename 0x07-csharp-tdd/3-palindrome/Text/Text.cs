@@ -17,6 +17,8 @@ namespace Text
         /// <returns>returns true or false</returns>
         public static bool IsPalindrome(string s)
         {
+            if (s == null)
+                return false;
             string lowercase = s.ToLower();
             List<char> stringcleaned = new List<char>();
             int i = 0;
@@ -28,8 +30,13 @@ namespace Text
                 }
                 i += 1;
             }
-            bool str = stringcleaned.SequenceEqual(lowercase.Reverse());
-            if (str == true)
+            lowercase = new string(stringcleaned.ToArray());
+
+            char[] array = lowercase.ToCharArray();
+            Array.Reverse(array);
+            string reverse = new string(array);
+
+            if (lowercase == reverse)
             {
                 return true;
             }
