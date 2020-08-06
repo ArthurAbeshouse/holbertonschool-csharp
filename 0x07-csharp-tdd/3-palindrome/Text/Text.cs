@@ -11,10 +11,10 @@ namespace Text
     public class Str
     {
         /// <summary>
-        /// 
+        /// Checks if string is a palindrome
         /// </summary>
-        /// <param name="s"></param>
-        /// <returns></returns>
+        /// <param name="s">The string</param>
+        /// <returns>returns true or false</returns>
         public static bool IsPalindrome(string s)
         {
             string lowercase = s.ToLower();
@@ -28,7 +28,7 @@ namespace Text
                 }
                 i += 1;
             }
-            return s.SequenceEqual(s.Reverse());
+            return lowercase.SequenceEqual(lowercase.Reverse());
         }
     }
 }

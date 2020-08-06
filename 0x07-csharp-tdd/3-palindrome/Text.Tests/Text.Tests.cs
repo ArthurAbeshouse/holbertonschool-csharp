@@ -11,7 +11,7 @@ namespace Text.Tests
         }
 
         [Test]
-        public void TestFalse([Values("giraffe", null)] string str)
+        public void TestFalse([Values("giraffe")] string str)
         {
             Assert.That(Text.Str.IsPalindrome(str), Is.False);
         }
