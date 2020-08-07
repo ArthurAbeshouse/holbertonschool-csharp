@@ -1,22 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _0_is
+/// <summary>
+/// method IsOfTypeInt
+/// </summary>
+public class Obj
 {
     /// <summary>
-    /// method IsOfTypeInt
+    /// method that returns True if the object is an int, 
+    /// otherwise it returns False.
     /// </summary>
-    class Obj
+    /// <param name="obj">The object</param>
+    /// <returns>True if the object is an int, False if otherwise</returns>
+    public static bool IsOfTypeInt(object obj)
     {
-        /// <summary>
-        /// method that returns True if the object is an int, 
-        /// otherwise it returns False.
-        /// </summary>
-        /// <param name="obj">The object</param>
-        /// <returns>True if the object is an int, False if otherwise</returns>
-        public static bool IsOfTypeInt(object obj)
-        {
-            return obj is int;
-        }
+        return obj is int;
     }
 }
