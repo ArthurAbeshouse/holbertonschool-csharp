@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 
 /// <summary>
-/// 
+/// Console application that alters images 
 /// </summary>
 class ImageProcessor
 {
 
     /// <summary>
-    /// 
+    /// Inverts image
     /// </summary>
     /// <param name="filenames"></param>
     public static void Inverse(string[] filenames)
@@ -45,7 +45,7 @@ class ImageProcessor
     }
 
     /// <summary>
-    /// 
+    /// Changes the image to grayscale
     /// </summary>
     /// <param name="filenames"></param>
     public static void Grayscale(string[] filenames)
@@ -80,7 +80,7 @@ class ImageProcessor
     }
 
     /// <summary>
-    /// 
+    /// Changes the image to black and white
     /// </summary>
     /// <param name="filenames"></param>
     /// <param name="threshold"></param>
@@ -129,7 +129,7 @@ class ImageProcessor
     }
 
     /// <summary>
-    /// 
+    /// Creates a thumbnail image based on a given height (in pixels)
     /// </summary>
     /// <param name="filenames"></param>
     /// <param name="height"></param>
