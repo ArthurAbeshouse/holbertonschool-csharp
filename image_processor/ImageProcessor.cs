@@ -88,6 +88,7 @@ class ImageProcessor
     {
         Parallel.ForEach(filenames, img_name =>
         {
+            double total; 
             Bitmap image = new Bitmap(img_name);
             Rectangle rekt = new Rectangle(0, 0, image.Width, image.Height);
             BitmapData bmpdata = image.LockBits(rekt, ImageLockMode.ReadWrite, image.PixelFormat);
