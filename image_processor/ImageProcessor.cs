@@ -135,6 +135,18 @@ class ImageProcessor
     /// <param name="height"></param>
     public static void Thumbnail(string[] filenames, int height)
     {
+        Parallel.ForEach(filenames, img_name =>
+        {
+            using (Bitmap image = new Bitmap(img_name))
+            {
+                string file_name = Path.GetFileNameWithoutExtension(img_name);
+                string file_extension = Path.GetExtension(img_name);
 
+                int width = height * (image.Width / image.Height);
+                image bmp = image.GetThumbnailImage(width, height, null, IntPtr.Zero);
+
+                image.Save($"{file_name}_th{file_extension}");
+            }
+        });
     }
 }
