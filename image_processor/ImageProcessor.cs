@@ -142,7 +142,7 @@ class ImageProcessor
                 string file_name = Path.GetFileNameWithoutExtension(img_name);
                 string file_extension = Path.GetExtension(img_name);
 
-                int width = height * (image.Width / image.Height);
+                int width = height * image.Width / image.Height;
                 Image thumbnail = image.GetThumbnailImage(width, height, null, IntPtr.Zero);
 
                 thumbnail.Save($"{file_name}_th{file_extension}");
