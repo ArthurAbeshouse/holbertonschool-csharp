@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>9-vector_scalar_mul</name>
+    </assembly>
+    <members>
+        <member name="T:VectorMath">
+            <summary>
+            Class for VectorMath
+            </summary>
+        </member>
+        <member name="M:VectorMath.Multiply(System.Double[],System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="vector"></param>
+            <param name="scalar"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3-magnitude</name>
+    </assembly>
+    <members>
+        <member name="T:VectorMath">
+            <summary>
+            Class for VectorMath
+            </summary>
+        </member>
+        <member name="M:VectorMath.Magnitude(System.Double[])">
+            <summary>
+            method that calculates and returns the length of a given vector
+            </summary>
+            <param name="vector"></param>
+            <returns>The magnitude, else -1 if not a 2D or 3D vector</returns>
+        </member>
+    </members>
+</doc>

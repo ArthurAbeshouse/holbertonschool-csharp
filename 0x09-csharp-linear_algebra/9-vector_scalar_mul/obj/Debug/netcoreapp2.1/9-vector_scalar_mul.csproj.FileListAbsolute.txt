@@ -1,0 +1,12 @@
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/netcoreapp2.1/9-vector_scalar_mul.csprojAssemblyReference.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/netcoreapp2.1/9-vector_scalar_mul.csproj.CoreCompileInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/netcoreapp2.1/9-vector_scalar_mul.AssemblyInfoInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/netcoreapp2.1/9-vector_scalar_mul.AssemblyInfo.cs
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/netcoreapp2.1/9-vector_scalar_mul.xml
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/netcoreapp2.1/9-vector_scalar_mul.deps.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/netcoreapp2.1/9-vector_scalar_mul.runtimeconfig.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/netcoreapp2.1/9-vector_scalar_mul.runtimeconfig.dev.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/netcoreapp2.1/9-vector_scalar_mul.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/netcoreapp2.1/9-vector_scalar_mul.pdb
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/netcoreapp2.1/9-vector_scalar_mul.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/netcoreapp2.1/9-vector_scalar_mul.pdb

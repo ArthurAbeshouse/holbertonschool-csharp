@@ -1,0 +1,12 @@
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/bin/Debug/netcoreapp2.1/12-dot_product.xml
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/bin/Debug/netcoreapp2.1/12-dot_product.deps.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/bin/Debug/netcoreapp2.1/12-dot_product.runtimeconfig.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/bin/Debug/netcoreapp2.1/12-dot_product.runtimeconfig.dev.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/bin/Debug/netcoreapp2.1/12-dot_product.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/bin/Debug/netcoreapp2.1/12-dot_product.pdb
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/obj/Debug/netcoreapp2.1/12-dot_product.csprojAssemblyReference.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/obj/Debug/netcoreapp2.1/12-dot_product.csproj.CoreCompileInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/obj/Debug/netcoreapp2.1/12-dot_product.AssemblyInfoInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/obj/Debug/netcoreapp2.1/12-dot_product.AssemblyInfo.cs
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/obj/Debug/netcoreapp2.1/12-dot_product.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/12-dot_product/obj/Debug/netcoreapp2.1/12-dot_product.pdb

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>6-vector_addition</name>
+    </assembly>
+    <members>
+        <member name="T:VectorMath">
+            <summary>
+            Class for VectorMath
+            </summary>
+        </member>
+        <member name="M:VectorMath.Add(System.Double[],System.Double[])">
+            <summary>
+            
+            </summary>
+            <param name="vector1"></param>
+            <param name="vector2"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

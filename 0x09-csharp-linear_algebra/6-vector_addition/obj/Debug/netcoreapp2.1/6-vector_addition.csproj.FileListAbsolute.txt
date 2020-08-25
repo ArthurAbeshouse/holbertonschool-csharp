@@ -1,0 +1,12 @@
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/obj/Debug/netcoreapp2.1/6-vector_addition.csprojAssemblyReference.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/obj/Debug/netcoreapp2.1/6-vector_addition.csproj.CoreCompileInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/obj/Debug/netcoreapp2.1/6-vector_addition.AssemblyInfoInputs.cache
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/obj/Debug/netcoreapp2.1/6-vector_addition.AssemblyInfo.cs
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/bin/Debug/netcoreapp2.1/6-vector_addition.xml
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/bin/Debug/netcoreapp2.1/6-vector_addition.deps.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/bin/Debug/netcoreapp2.1/6-vector_addition.runtimeconfig.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/bin/Debug/netcoreapp2.1/6-vector_addition.runtimeconfig.dev.json
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/bin/Debug/netcoreapp2.1/6-vector_addition.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/bin/Debug/netcoreapp2.1/6-vector_addition.pdb
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/obj/Debug/netcoreapp2.1/6-vector_addition.dll
+/Users/arthurabeshouse/Holberton projects/C#_projects/holbertonschool-csharp/0x09-csharp-linear_algebra/6-vector_addition/obj/Debug/netcoreapp2.1/6-vector_addition.pdb
