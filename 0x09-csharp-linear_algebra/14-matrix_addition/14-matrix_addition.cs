@@ -21,7 +21,7 @@ class MatrixMath
         int i, j;
         for (i = 0; i < matrix1.GetLength(0); i += 1)
         {
-            for (j = 0; j < matrix1.GetLength(0); j += 1)
+            for (j = 0; j < matrix1.GetLength(1); j += 1)
                 results[i, j] = matrix1[i, j] + matrix2[i, j];
         }
         return results;
