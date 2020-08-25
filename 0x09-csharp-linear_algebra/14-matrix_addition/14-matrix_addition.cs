@@ -17,7 +17,7 @@ class MatrixMath
         (matrix1.GetLength(0) > 3 && matrix1.GetLength(1) > 3 && matrix2.GetLength(0) > 3 && matrix2.GetLength(1) > 3))
             return new double[,] { { -1 } };
         
-        double[,] results = new double[matrix1.Length, matrix1.Length];
+        double[,] results = new double[matrix1.GetLength(0), matrix1.GetLength(0)];
         int i, j;
         for (i = 0; i < matrix1.GetLength(0); i += 1)
         {
