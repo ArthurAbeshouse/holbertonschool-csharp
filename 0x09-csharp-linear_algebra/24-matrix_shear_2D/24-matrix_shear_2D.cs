@@ -27,8 +27,6 @@ class MatrixMath
                 newMatrix[0, 1] = matrix[0, 1];
                 newMatrix[1, 0] = matrix[1, 0] + factor * matrix[1, 1];
                 newMatrix[1, 1] = matrix[1, 1];
-
-                return newMatrix;
             }
             else
             {
@@ -36,8 +34,6 @@ class MatrixMath
                 newMatrix[0, 1] = matrix[0, 1] * factor + matrix[0, 0];
                 newMatrix[1, 0] = matrix[1, 0];
                 newMatrix[1, 1] = matrix[1, 1] * factor + matrix[1, 0];
-
-                return newMatrix;
             }
         }
         return new double[,] { { -1 } };
