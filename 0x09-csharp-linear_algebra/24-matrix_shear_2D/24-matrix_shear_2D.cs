@@ -6,12 +6,12 @@
 class MatrixMath
 {
     /// <summary>
-    /// 
+    /// Shears a square 2D matrix
     /// </summary>
     /// <param name="matrix"></param>
     /// <param name="direction"></param>
     /// <param name="factor"></param>
-    /// <returns></returns>
+    /// <returns>If given an axis that is not x or y, return a matrix containing -1</returns>
     public static double[,] Shear2D(double[,] matrix, char direction, double factor)
     {
         if (matrix.GetLength(0) != 2 && matrix.GetLength(1) != 2)
