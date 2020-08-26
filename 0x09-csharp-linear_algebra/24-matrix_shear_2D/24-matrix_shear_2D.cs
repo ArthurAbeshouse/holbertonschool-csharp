@@ -33,9 +33,9 @@ class MatrixMath
             else
             {
                 newMatrix[0, 0] = matrix[0, 0];
-                newMatrix[0, 1] = matrix[0, 1] * factor + matrix[0, 0];
+                newMatrix[0, 1] = matrix[0, 1] + factor * matrix[0, 0];
                 newMatrix[1, 0] = matrix[1, 0];
-                newMatrix[1, 1] = matrix[1, 1] * factor + matrix[1, 0];
+                newMatrix[1, 1] = matrix[1, 1] + factor * matrix[1, 0];
 
                 return newMatrix;
             }
