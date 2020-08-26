@@ -16,21 +16,20 @@ class MatrixMath
         double[,] newMatrix = new double[2, 2];
         double[,] MatrixRotate = new double[,] {{Math.Cos(angle), Math.Sin(angle)}, {-1 * Math.Sin(angle), Math.Cos(angle)}};
         double op;
-        
-        if (matrix.GetLength(0) == 2 || matrix.GetLength(1) == 2)
+
+        if (matrix.GetLength(0) != 2 || matrix.GetLength(1) != 2)
+            return new double[,] { { -1 } };
+
+        for (int i = 0; i < 2; i += 1)
         {
-            for (int i = 0; i < 2; i += 1)
+            for (int j = 0; j < 2; j += 1)
             {
-                for (int j = 0; j < 2; j += 1)
-                {
-                    op = 0;
-                    for (int k = 0; k < 2; k += 1)
-                        op = Math.Round(op + (matrix[i, k] * MatrixRotate[k, j]), 2);
-                    newMatrix[i, j] = op;
-                }
+                op = 0;
+                for (int k = 0; k < 2; k += 1)
+                    op = Math.Round(op + (matrix[i, k] * MatrixRotate[k, j]), 2);
+                newMatrix[i, j] = op;
             }
-            return newMatrix;
         }
-        return new double[,] { { -1 } };
+        return newMatrix;
     }
 }
