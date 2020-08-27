@@ -9,7 +9,7 @@ class MatrixMath
     /// Calculates the inverse of a 2D matrix
     /// </summary>
     /// <param name="matrix"></param>
-    /// <returns>The results, but, if the matrix is 2D or not invertible it will return -1</returns>
+    /// <returns>The results, but, if the matrix isn't 2D or not invertible it will return -1</returns>
     public static double[,] Inverse2D(double[,] matrix)
     {
         int matrix_row = matrix.GetLength(0);
