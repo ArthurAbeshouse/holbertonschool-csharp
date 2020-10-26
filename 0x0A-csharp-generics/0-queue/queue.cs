@@ -8,8 +8,8 @@ public class Queue<T>
     /// Checks if input is queue type
     /// </summary>
     /// <returns>Queue type</returns>
-    public String CheckType()
+    public Type CheckType()
     {
-        return typeof(T).toString();
+        return typeof(T);
     }
 }
