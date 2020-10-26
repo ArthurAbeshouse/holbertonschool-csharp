@@ -40,7 +40,7 @@ class Queue<T>
     }
 
     /// <summary>
-    /// Removes the element from the head of the queue
+    /// Removes an element from the head of the queue
     /// </summary>
     public T Dequeue()
     {
