@@ -1,6 +1,4 @@
 ﻿using System;
-
-
 /// <summary>
 /// Custom class that stores a queue
 /// </summary>
@@ -12,6 +10,6 @@ class Queue<T>
     /// <returns>Queue type</returns>
     public String CheckType()
     {
-        return typeof(T);
+        return typeof(T).toString();
     }
 }
