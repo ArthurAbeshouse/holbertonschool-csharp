@@ -40,6 +40,22 @@ class Queue<T>
     }
 
     /// <summary>
+    /// Removes the element from the head of the queue
+    /// </summary>
+    public T Dequeue()
+    {
+        if (head == null)
+        {
+            Console.WriteLine("Queue is empty");
+            return default(T);
+        }
+        T value = head.value;
+        head = head.next;
+        count -= 1;
+        return value;
+    }
+
+    /// <summary>
     /// Checks if input is queue type
     /// </summary>
     /// <returns>Queue type</returns>
