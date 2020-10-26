@@ -2,7 +2,7 @@
 /// <summary>
 /// Custom class that stores a queue
 /// </summary>
-class Queue<T>
+public class Queue<T>
 {
     /// <summary>
     /// Checks if input is queue type
