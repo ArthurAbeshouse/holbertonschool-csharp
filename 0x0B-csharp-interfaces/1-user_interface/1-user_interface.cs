@@ -25,7 +25,7 @@ public abstract class Base
 public interface IInteractive
 {
     /// <summary>
-    /// Interact function
+    /// Calls the Interact function
     /// </summary>
     void Interact();
 }
@@ -56,7 +56,7 @@ public interface ICollectable
     /// </summary>
     bool isCollected {get; set;}
     /// <summary>
-    /// Calls Collect function
+    /// Calls the Collect function
     /// </summary>
     void Collect();
 }
