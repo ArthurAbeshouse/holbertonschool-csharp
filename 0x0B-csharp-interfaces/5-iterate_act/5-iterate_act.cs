@@ -196,7 +196,7 @@ public class RoomObjects
                     ((IBreakable)obj).Break();
                 else if (type == typeof(IInteractive))
                     ((IInteractive)obj).Interact();
-                else if (type = typeof(ICollectable))
+                else if (type == typeof(ICollectable))
                     ((ICollectable)obj).Collect();
             }
         }
