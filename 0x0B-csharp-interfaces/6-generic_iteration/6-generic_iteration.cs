@@ -179,7 +179,7 @@ public class Key : Base, ICollectable
 }
 
 /// <summary>
-/// Stores a lost of objects in a room
+/// Stores a list of objects in a room
 /// </summary>
 public class Objs<T> : List<T>
 {
