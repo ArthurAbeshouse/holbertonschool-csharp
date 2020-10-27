@@ -24,6 +24,9 @@ public abstract class Base
 /// </summary>
 public interface IInteractive
 {
+    /// <summary>
+    /// Calls the Interact function
+    /// </summary>
     void Interact();
 }
 
@@ -32,8 +35,14 @@ public interface IInteractive
 /// </summary>
 public interface IBreakable
 {
+    /// <summary>
+    /// Tracks durability
+    /// </summary>
+    /// <value></value>
     int durability {get; set;}
-
+    /// <summary>
+    /// Calls the Break function
+    /// </summary>
     void Break();
 }
 
@@ -42,8 +51,13 @@ public interface IBreakable
 /// </summary>
 public interface ICollectable
 {
+    /// <summary>
+    /// Tracks if item is collected
+    /// </summary>
     bool isCollected {get; set;}
-
+    /// <summary>
+    /// Calls the Collect function
+    /// </summary>
     void Collect();
 }
 
@@ -52,11 +66,18 @@ public interface ICollectable
 /// </summary>
 public class Door : Base, IInteractive
 {
+    /// <summary>
+    /// Door constructor
+    /// </summary>
+    /// <param name="name"></param>
     public Door(string name = "Door")
     {
         this.name = name;
     }
 
+    /// <summary>
+    /// Interact function
+    /// </summary>
     public void Interact()
     {
         Console.WriteLine("You try to open the {0}. It's locked.", this.name);
@@ -68,7 +89,15 @@ public class Door : Base, IInteractive
 /// </summary>
 public class Decoration : Base, IInteractive, IBreakable
 {
+    /// <summary>
+    /// Decoration bool
+    /// </summary>
     public bool isQuestItem;
+
+    /// <summary>
+    /// Decoration durability
+    /// </summary>
+    /// <value></value>
     public int durability {get; set;}
 
     /// <summary>
