@@ -8,7 +8,7 @@ public abstract class Base
     /// <summary>
     /// Object name
     /// </summary>
-    public string name;
+    private string name;
 
     /// <summary>
     /// Displays name and type of the object
