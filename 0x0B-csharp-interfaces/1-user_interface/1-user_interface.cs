@@ -8,7 +8,7 @@ public abstract class Base
     /// <summary>
     /// Object name
     /// </summary>
-    private string name;
+    public string name;
 
     /// <summary>
     /// Displays name and type of the object
@@ -24,6 +24,9 @@ public abstract class Base
 /// </summary>
 public interface IInteractive
 {
+    /// <summary>
+    /// Interact function
+    /// </summary>
     void Interact();
 }
 
@@ -32,8 +35,14 @@ public interface IInteractive
 /// </summary>
 public interface IBreakable
 {
+    /// <summary>
+    /// Tracks durability
+    /// </summary>
+    /// <value></value>
     int durability {get; set;}
-
+    /// <summary>
+    /// Calls the Break function
+    /// </summary>
     void Break();
 }
 
@@ -42,8 +51,13 @@ public interface IBreakable
 /// </summary>
 public interface ICollectable
 {
+    /// <summary>
+    /// Tracks if item is collected
+    /// </summary>
     bool isCollected {get; set;}
-
+    /// <summary>
+    /// Calls Collect function
+    /// </summary>
     void Collect();
 }
 
@@ -52,13 +66,28 @@ public interface ICollectable
 /// </summary>
 public class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
+    /// <summary>
+    /// Tracks durability
+    /// </summary>
     public int durability {get; set;}
-
+    
+    /// <summary>
+    /// Tracks if item is collected
+    /// </summary>
     public bool isCollected {get; set;}
-
+    
+    /// <summary>
+    /// Interact function
+    /// </summary>
     public void Interact() {}
 
+    /// <summary>
+    /// Break function
+    /// </summary>
     public void Break() {}
 
+    /// <summary>
+    /// Collect function
+    /// </summary>
     public void Collect() {}
 }
