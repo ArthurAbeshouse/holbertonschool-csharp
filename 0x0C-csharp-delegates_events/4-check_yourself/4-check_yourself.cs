@@ -28,7 +28,7 @@ public class Player
         this.name = name;
         this.maxHp = maxHp;
         this.hp = maxHp;
-        if (status == "undefined")
+        if (status == "Undefined")
         {
             this.status = $"{this.name} is ready to go!";
         }
