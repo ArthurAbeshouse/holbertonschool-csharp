@@ -93,7 +93,7 @@ public class Player
             this.hp = maxHp;
         else
             this.hp = newHp;
-        HPCheck(this, new CurrentHPArgs(this.hp));
+        CheckStatus(HPCheck, new CurrentHPArgs(this.hp));
     }
 
     /// <summary>
