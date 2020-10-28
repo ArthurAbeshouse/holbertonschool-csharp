@@ -119,7 +119,7 @@ public class Player
             this.status = $"{this.name} isn't doing too great...";
         else if (e.currentHP > 0f && e.currentHP < (this.maxHp * 0.25f))
             status = $"{this.name} needs help!";
-        else if (e.currentHP <= 0)
+        else if (e.currentHP <= 0f)
             this.status = $"{this.name} is knocked out!";
         Console.WriteLine(this.status);
     }
