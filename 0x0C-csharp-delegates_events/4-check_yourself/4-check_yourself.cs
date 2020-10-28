@@ -1,25 +1,6 @@
 ﻿using System;
 
 /// <summary>
-/// Modifier
-/// </summary>
-public enum Modifier
-{
-    /// <summary>
-    /// Weak modifier is 0.5
-    /// </summary>
-    Weak,
-    /// <summary>
-    /// Base modifier is 1
-    /// </summary>
-    Base,
-    /// <summary>
-    /// Strong modifier is 1.5
-    /// </summary>
-    Strong
-}
-
-/// <summary>
 /// Creates a public Player class
 /// </summary>
 public class Player
@@ -135,16 +116,35 @@ public class Player
     {
         if (e.currentHP == this.maxHp)
             this.status = $"{this.name} is in perfect health!";
-        else if (e.currentHP >= (this.maxHp * 0.5f) && e.currentHP < this.maxHp)
+        else if (e.currentHP >= this.maxHp * 0.5f && e.currentHP < maxHp)
             this.status = $"{this.name} is doing well!";
-        else if (e.currentHP >= (this.maxHp * 0.25f) && e.currentHP < (this.maxHp * 0.5f))
+        else if (e.currentHP >= this.maxHp * 0.25f && e.currentHP < maxHp * 0.5f)
             this.status = $"{this.name} isn't doing too great...";
-        else if (e.currentHP > 0f && e.currentHP < (this.maxHp * 0.25f))
+        else if (e.currentHP > 0f && e.currentHP < maxHp * 0.25f)
             status = $"{this.name} needs help!";
-        else if (e.currentHP <= 0f)
+        else
             this.status = $"{this.name} is knocked out!";
         Console.WriteLine(this.status);
     }
+}
+
+/// <summary>
+/// Modifier
+/// </summary>
+public enum Modifier
+{
+    /// <summary>
+    /// Weak modifier is 0.5
+    /// </summary>
+    Weak,
+    /// <summary>
+    /// Base modifier is 1
+    /// </summary>
+    Base,
+    /// <summary>
+    /// Strong modifier is 1.5
+    /// </summary>
+    Strong
 }
 
 /// <summary>
