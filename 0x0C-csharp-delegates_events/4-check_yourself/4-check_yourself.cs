@@ -18,7 +18,7 @@ public class Player
     /// <summary>
     /// Player Constructor
     /// </summary>
-    public Player(string name = "Player", float maxHp = 100f)
+    public Player(string name = "Player", float maxHp = 100f, string status = "Undefined")
     {
         if (maxHp <= 0f)
         {
