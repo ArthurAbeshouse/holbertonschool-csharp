@@ -1,6 +1,25 @@
 ﻿using System;
 
 /// <summary>
+/// Modifier
+/// </summary>
+public enum Modifier
+{
+    /// <summary>
+    /// Weak modifier is 0.5
+    /// </summary>
+    Weak,
+    /// <summary>
+    /// Base modifier is 1
+    /// </summary>
+    Base,
+    /// <summary>
+    /// Strong modifier is 1.5
+    /// </summary>
+    Strong
+}
+
+/// <summary>
 /// Creates a public Player class
 /// </summary>
 public class Player
@@ -13,7 +32,7 @@ public class Player
     /// <summary>
     /// Handles events
     /// </summary>
-    public EventHandler<CurrentHPArgs> HPCheck;
+    public event EventHandler<CurrentHPArgs> HPCheck;
 
     /// <summary>
     /// Player Constructor
@@ -126,25 +145,6 @@ public class Player
             this.status = $"{this.name} is knocked out!";
         Console.WriteLine(this.status);
     }
-}
-
-/// <summary>
-/// Modifier
-/// </summary>
-public enum Modifier
-{
-    /// <summary>
-    /// Weak modifier is 0.5
-    /// </summary>
-    Weak,
-    /// <summary>
-    /// Base modifier is 1
-    /// </summary>
-    Base,
-    /// <summary>
-    /// Strong modifier is 1.5
-    /// </summary>
-    Strong
 }
 
 /// <summary>
