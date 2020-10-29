@@ -37,7 +37,7 @@ class CurrentHPArgs : EventArgs
     /// <summary>
     /// Current health
     /// </summary>
-    public readonly float currentHP;
+    public float currentHP;
 
     /// <summary>
     /// Set current HP
