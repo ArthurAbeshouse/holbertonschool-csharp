@@ -96,22 +96,23 @@ public class Player
     /// </summary>
     public void TakeDamage(float damage)
     {
-        if (damage < 0)
+        if (damage < 0f)
         {
-            damage = 0;
+            damage = 0f;
         }
         Console.WriteLine("{0} takes {1} damage!", this.name, damage);
-        ValidateHP(this.hp - damage);
+        float newHp = this.hp - damage;
+        this.ValidateHP(newHp);
     }
-
+    
     /// <summary>
     /// Handles healing
     /// </summary>
     public void HealDamage(float heal)
     {
-        if (heal < 0)
+        if (heal < 0f)
         {
-            heal = 0;
+            heal = 0f;
         }
         Console.WriteLine("{0} heals {1} HP!", this.name, heal);
         ValidateHP(this.hp + heal);
@@ -122,9 +123,9 @@ public class Player
     /// </summary>
     public void ValidateHP(float newHp)
     {
-        if (newHp < 0)
+        if (newHp < 0f)
         {
-            this.hp = 0;
+            this.hp = 0f;
         }
         if (newHp > maxHp)
         {
@@ -154,11 +155,11 @@ public class Player
     {
         if (e.currentHP == this.maxHp)
             this.status = $"{this.name} is in perfect health!";
-        else if (e.currentHP >= this.maxHp * 0.5 && e.currentHP < maxHp)
+        else if (e.currentHP >= this.maxHp * 0.5)
             this.status = $"{this.name} is doing well!";
-        else if (e.currentHP >= this.maxHp * 0.25 && e.currentHP < maxHp)
+        else if (e.currentHP >= this.maxHp * 0.25)
             this.status = $"{this.name} isn't doing too great...";
-        else if (e.currentHP > 0 && e.currentHP < maxHp * 0.25)
+        else if (e.currentHP > 0)
             this.status = $"{this.name} needs help!";
         else
             this.status = $"{this.name} is knocked out!";
