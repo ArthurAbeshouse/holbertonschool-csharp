@@ -1,54 +1,6 @@
 ﻿using System;
 
 /// <summary>
-/// Modifier
-/// </summary>
-public enum Modifier
-{
-    /// <summary>
-    /// Weak modifier is 0.5
-    /// </summary>
-    Weak,
-    /// <summary>
-    /// Base modifier is 1
-    /// </summary>
-    Base,
-    /// <summary>
-    /// Strong modifier is 1.5
-    /// </summary>
-    Strong
-}
-
-/// <summary>
-/// Delegate
-/// </summary>
-delegate void CalculateHealth(float amount);
-
-/// <summary>
-/// Determines strength of the attack
-/// </summary>
-public delegate float CalculateModifier(float baseValue, Modifier modifier);
-
-/// <summary>
-/// Current HP ARgs
-/// </summary>
-class CurrentHPArgs : EventArgs
-{
-    /// <summary>
-    /// Current health
-    /// </summary>
-    public readonly float currentHP;
-
-    /// <summary>
-    /// Set current HP
-    /// </summary>
-    public CurrentHPArgs(float newHp)
-    {
-        this.currentHP = newHp;
-    }
-}
-
-/// <summary>
 /// Creates a public Player class
 /// </summary>
 public class Player
@@ -61,26 +13,23 @@ public class Player
     /// <summary>
     /// Handles events
     /// </summary>
-    EventHandler<CurrentHPArgs> HPCheck;
+    public event EventHandler<CurrentHPArgs> HPCheck;
 
     /// <summary>
     /// Player Constructor
     /// </summary>
     public Player(string name = "Player", float maxHp = 100f)
     {
-        if (maxHp <= 0)
+        if (maxHp <= 0f)
         {
             maxHp = 100f;
             Console.WriteLine("maxHp must be greater than 0. maxHp set to 100f by default.");
         }
-        else
-        {
-            this.maxHp = maxHp;
-        }
         this.name = name;
+        this.maxHp = maxHp;
         this.hp = maxHp;
         this.status = $"{this.name} is ready to go!";
-        HPCheck += CheckStatus;
+        this.HPCheck += CheckStatus;
     }
 
     /// <summary>
@@ -92,17 +41,25 @@ public class Player
     }
 
     /// <summary>
+    /// Delegate
+    /// </summary>
+    public delegate void CalculateHealth(float amount);
+
+    /// <summary>
     /// Handles damges
     /// </summary>
     public void TakeDamage(float damage)
     {
         if (damage < 0f)
         {
+            Console.WriteLine("{0} takes 0 damage!", this.name);
             damage = 0f;
         }
-        Console.WriteLine("{0} takes {1} damage!", this.name, damage);
-        float newHp = this.hp - damage;
-        this.ValidateHP(newHp);
+        else
+        {
+            Console.WriteLine("{0} takes {1} damage!", this.name, damage);
+        }
+        ValidateHP(this.hp - damage);
     }
 
     /// <summary>
@@ -112,11 +69,14 @@ public class Player
     {
         if (heal < 0f)
         {
+            Console.WriteLine("{0} heals 0 HP!", this.name);
             heal = 0f;
         }
-        Console.WriteLine("{0} heals {1} HP!", this.name, heal);
-        float newHp = this.hp + heal;
-        this.ValidateHP(newHp);
+        else
+        {
+            Console.WriteLine("{0} heals {1} HP!", this.name, heal);
+        }
+        ValidateHP(this.hp + heal);
     }
 
     /// <summary>
@@ -124,19 +84,13 @@ public class Player
     /// </summary>
     public void ValidateHP(float newHp)
     {
-        if (newHp < 0f)
-        {
-            this.hp = 0f;
-        }
-        else if (newHp > this.maxHp)
-        {
-            this.hp = this.maxHp;
-        }
+        if (newHp < 0)
+            this.hp = 0;
+        else if (newHp >= maxHp)
+            this.hp = maxHp;
         else
-        {
             this.hp = newHp;
-            HPCheck(this, new CurrentHPArgs(this.hp));
-        }
+        HPCheck(this, new CurrentHPArgs(this.hp));
     }
 
     /// <summary>
@@ -157,16 +111,59 @@ public class Player
     /// </summary>
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
-        if (e.currentHP == this.maxHp)
+        if (e.currentHp == this.maxHp)
             this.status = $"{this.name} is in perfect health!";
-        else if (e.currentHP >= this.maxHp * 0.5)
+        else if (e.currentHp >= (this.maxHp * 0.5f) && e.currentHp < this.maxHp)
             this.status = $"{this.name} is doing well!";
-        else if (e.currentHP >= this.maxHp * 0.25)
+        else if (e.currentHp >= (this.maxHp * 0.25f) && e.currentHp < (this.maxHp * 0.5f))
             this.status = $"{this.name} isn't doing too great...";
-        else if (e.currentHP > 0)
-            this.status = $"{this.name} needs help!";
+        else if (e.currentHp > 0f && e.currentHp < (this.maxHp * 0.25f))
+            status = $"{this.name} needs help!";
         else
             this.status = $"{this.name} is knocked out!";
         Console.WriteLine(this.status);
+    }
+}
+
+/// <summary>
+/// Modifier
+/// </summary>
+public enum Modifier
+{
+    /// <summary>
+    /// Weak modifier is 0.5
+    /// </summary>
+    Weak,
+    /// <summary>
+    /// Base modifier is 1
+    /// </summary>
+    Base,
+    /// <summary>
+    /// Strong modifier is 1.5
+    /// </summary>
+    Strong
+}
+
+/// <summary>
+/// Determines strength of the attack
+/// </summary>
+public delegate float CalculateModifier(float baseValue, Modifier modifier);
+
+/// <summary>
+/// Current HP ARgs
+/// </summary>
+public class CurrentHPArgs : EventArgs
+{
+    /// <summary>
+    /// Current health
+    /// </summary>
+    public float currentHp;
+
+    /// <summary>
+    /// Set current HP
+    /// </summary>
+    public CurrentHPArgs(float newHp)
+    {
+        this.currentHp = newHp;
     }
 }
