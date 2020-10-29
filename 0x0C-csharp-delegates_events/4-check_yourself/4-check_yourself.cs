@@ -148,8 +148,8 @@ public class Player
             return baseValue * 0.5f;
         else if (modifier == Modifier.Strong)
             return baseValue * 1.5f;
-        else if (modifier == Modifier.Base)
-            return baseValue * 1f;
+        else
+            return baseValue;
     }
 
     /// <summary>
