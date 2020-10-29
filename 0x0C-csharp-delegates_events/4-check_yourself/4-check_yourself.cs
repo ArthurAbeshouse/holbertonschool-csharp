@@ -128,9 +128,9 @@ public class Player
         {
             this.hp = 0f;
         }
-        else if (newHp > maxHp)
+        else if (newHp > this.maxHp)
         {
-            this.hp = maxHp;
+            this.hp = this.maxHp;
         }
         else
         {
@@ -148,8 +148,8 @@ public class Player
             return baseValue * 0.5f;
         else if (modifier == Modifier.Strong)
             return baseValue * 1.5f;
-        else
-            return baseValue;
+        else if (modifier == Modifier.Base)
+            return baseValue * 1f;
     }
 
     /// <summary>
