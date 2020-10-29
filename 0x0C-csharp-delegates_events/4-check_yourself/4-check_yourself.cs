@@ -144,7 +144,6 @@ public class Player
     /// </summary>
     public float ApplyModifier(float baseValue, Modifier modifier)
     {
-        Console.WriteLine(modifier);
         if (modifier == Modifier.Weak)
             return baseValue * 0.5f;
         else if (modifier == Modifier.Strong)
