@@ -61,7 +61,7 @@ public class Player
     /// <summary>
     /// Handles events
     /// </summary>
-    public event EventHandler<CurrentHPArgs> HPCheck;
+    EventHandler<CurrentHPArgs> HPCheck;
 
     /// <summary>
     /// Player Constructor
