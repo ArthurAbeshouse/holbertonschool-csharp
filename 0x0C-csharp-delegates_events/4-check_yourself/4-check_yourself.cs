@@ -73,8 +73,11 @@ public class Player
             maxHp = 100f;
             Console.WriteLine("maxHp must be greater than 0. maxHp set to 100f by default.");
         }
+        else
+        {
+            this.maxHp = maxHp;
+        }
         this.name = name;
-        this.maxHp = maxHp;
         this.hp = maxHp;
         this.status = $"{this.name} is ready to go!";
         HPCheck += CheckStatus;
@@ -95,7 +98,6 @@ public class Player
     {
         if (damage < 0)
         {
-            Console.WriteLine("{0} takes 0 damage!", this.name);
             damage = 0;
         }
         Console.WriteLine("{0} takes {1} damage!", this.name, damage);
@@ -129,7 +131,7 @@ public class Player
             this.hp = maxHp;
         }
         this.hp = newHp;
-        CheckStatus(HPCheck, new CurrentHPArgs(this.hp));
+        HPCheck(this, new CurrentHPArgs(this.hp));
     }
 
     /// <summary>
