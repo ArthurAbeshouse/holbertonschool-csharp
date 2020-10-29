@@ -104,7 +104,7 @@ public class Player
         float newHp = this.hp - damage;
         this.ValidateHP(newHp);
     }
-    
+
     /// <summary>
     /// Handles healing
     /// </summary>
