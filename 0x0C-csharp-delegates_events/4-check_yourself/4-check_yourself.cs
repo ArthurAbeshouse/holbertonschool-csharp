@@ -152,11 +152,11 @@ public class Player
     {
         if (e.currentHP == this.maxHp)
             this.status = $"{this.name} is in perfect health!";
-        else if (e.currentHP >= this.maxHp * 0.5f && e.currentHP < maxHp)
+        else if (e.currentHP >= this.maxHp * 0.5 && e.currentHP < maxHp)
             this.status = $"{this.name} is doing well!";
-        else if (e.currentHP >= this.maxHp * 0.25f && e.currentHP < maxHp)
+        else if (e.currentHP >= this.maxHp * 0.25 && e.currentHP < maxHp)
             this.status = $"{this.name} isn't doing too great...";
-        else if (e.currentHP > 0 && e.currentHP < maxHp * 0.25f)
+        else if (e.currentHP > 0 && e.currentHP < maxHp * 0.25)
             this.status = $"{this.name} needs help!";
         else
             this.status = $"{this.name} is knocked out!";
