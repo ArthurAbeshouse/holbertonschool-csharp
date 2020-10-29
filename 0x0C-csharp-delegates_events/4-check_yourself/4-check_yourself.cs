@@ -22,7 +22,7 @@ public enum Modifier
 /// <summary>
 /// Delegate
 /// </summary>
-public delegate void CalculateHealth(float amount);
+delegate void CalculateHealth(float amount);
 
 /// <summary>
 /// Determines strength of the attack
@@ -32,7 +32,7 @@ public delegate float CalculateModifier(float baseValue, Modifier modifier);
 /// <summary>
 /// Current HP ARgs
 /// </summary>
-public class CurrentHPArgs : EventArgs
+class CurrentHPArgs : EventArgs
 {
     /// <summary>
     /// Current health
@@ -61,7 +61,7 @@ public class Player
     /// <summary>
     /// Handles events
     /// </summary>
-    public EventHandler<CurrentHPArgs> HPCheck;
+    EventHandler<CurrentHPArgs> HPCheck;
 
     /// <summary>
     /// Player Constructor
@@ -144,6 +144,7 @@ public class Player
     /// </summary>
     public float ApplyModifier(float baseValue, Modifier modifier)
     {
+        Console.WriteLine(modifier);
         if (modifier == Modifier.Weak)
             return baseValue * 0.5f;
         else if (modifier == Modifier.Strong)
