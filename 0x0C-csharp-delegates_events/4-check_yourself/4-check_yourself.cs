@@ -115,7 +115,8 @@ public class Player
             heal = 0f;
         }
         Console.WriteLine("{0} heals {1} HP!", this.name, heal);
-        ValidateHP(this.hp + heal);
+        float newHp = this.hp + heal;
+        this.ValidateHP(newHp);
     }
 
     /// <summary>
@@ -127,12 +128,15 @@ public class Player
         {
             this.hp = 0f;
         }
-        if (newHp > maxHp)
+        else if (newHp > maxHp)
         {
             this.hp = maxHp;
         }
-        this.hp = newHp;
-        HPCheck(this, new CurrentHPArgs(this.hp));
+        else
+        {
+            this.hp = newHp;
+            HPCheck(this, new CurrentHPArgs(this.hp));
+        }
     }
 
     /// <summary>
